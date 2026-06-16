@@ -68,8 +68,8 @@ export const DEFAULT_THEME_CONFIG: ShokaXThemeConfig = {
     },
   ],
   brand: {
-    title: "ShokaX",
-    subtitle: "A modern blog theme",
+    title: "朱朱小站",
+    subtitle: "随心记",
     logo: "✨",
   },
   cover: {
@@ -85,7 +85,7 @@ export const DEFAULT_THEME_CONFIG: ShokaXThemeConfig = {
   },
   sidebar: {
     author: "叁月.",
-    description: "",
+    description: "爱雯雯的每一天♥️",
     social: {},
   },
   footer: {
