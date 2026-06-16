@@ -1,7 +1,7 @@
 import type { ShokaXThemeConfig } from "./themeConfig";
 
 export const DEFAULT_THEME_CONFIG: ShokaXThemeConfig = {
-  siteName: "ShokaX",
+  siteName: "朱朱小站",
   locale: "zh-CN",
   analytics: {
     googleAnalytics: {
@@ -84,8 +84,8 @@ export const DEFAULT_THEME_CONFIG: ShokaXThemeConfig = {
     nextGradientCover: false,
   },
   sidebar: {
-    author: "Your Name",
-    description: "A brief introduction",
+    author: "叁月.",
+    description: "",
     social: {},
   },
   footer: {
@@ -98,7 +98,7 @@ export const DEFAULT_THEME_CONFIG: ShokaXThemeConfig = {
     powered: true,
     icp: {
       enable: true,
-      icpnumber: "津ICP备2022001375号",
+      icpnumber: "", //津ICP备2022001375号
       icpurl: "https://beian.miit.gov.cn/",
     },
   },
