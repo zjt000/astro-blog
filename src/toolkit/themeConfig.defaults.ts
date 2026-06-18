@@ -51,11 +51,11 @@ export const DEFAULT_THEME_CONFIG: ShokaXThemeConfig = {
         ],
       },
     },
-    {
-      text: "友链",
-      href: "/friends/",
-      icon: "i-ri-link",
-    },
+    // {
+    //   text: "友链",
+    //   href: "/friends/",
+    //   icon: "i-ri-link",
+    // },
     {
       text: "动态",
       href: "/moments/",
