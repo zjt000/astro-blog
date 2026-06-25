@@ -41,7 +41,6 @@ const singleImage =
       class="imgs-container"
     >
       {isMultipleImages ? (
-        {/* 多图轮播模式 */}
         <ul class="image-list">
           {covers.map((cover, index) => (
             <CoverImage
@@ -53,7 +52,6 @@ const singleImage =
           ))}
         </ul>
       ) : (
-        {/* 单图模式 */}
         <CoverImage
           src={singleImage}
           alt={title}
@@ -66,7 +64,6 @@ const singleImage =
     </div>
   </>
 )}
-
 
 <script>
   const imgs = document.querySelector('#imgs')
