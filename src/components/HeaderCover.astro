@@ -33,6 +33,7 @@ const singleImage =
   fixedCover || (gradient ? 'https://7ed.net/bing/api' : covers[0])
 ---
 {enable && (
+  <>
     <div class="spacer"></div>
 
     <div
@@ -40,7 +41,7 @@ const singleImage =
       class="imgs-container"
     >
       {isMultipleImages ? (
-        <!-- 多图轮播模式 -->
+        {/* 多图轮播模式 */}
         <ul class="image-list">
           {covers.map((cover, index) => (
             <CoverImage
@@ -52,7 +53,7 @@ const singleImage =
           ))}
         </ul>
       ) : (
-        <!-- 单图模式 -->
+        {/* 单图模式 */}
         <CoverImage
           src={singleImage}
           alt={title}
@@ -63,7 +64,9 @@ const singleImage =
 
       <div class="imgs-overlay"></div>
     </div>
+  </>
 )}
+
 
 <script>
   const imgs = document.querySelector('#imgs')
