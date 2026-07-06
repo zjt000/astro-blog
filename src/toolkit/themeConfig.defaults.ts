@@ -153,7 +153,7 @@ export const DEFAULT_THEME_CONFIG: ShokaXThemeConfig = {
     restoreDelay: 3000,
   },
   home: {
-    selectedCategories: [{ name: "Tutorial" }, { name: "Frontend" }],
+    selectedCategories: [{ name: "linux" }, { name: "live" }],
     pageSize: 5,
     title: {
       behavior: "default",
